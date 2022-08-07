@@ -1,3 +1,10 @@
+# Orlo changes
+
+ * add Dockerfile - should allow for building of the module from any other non-Debian Buster server
+ * build.sh - so you don't have to type as much
+
+
+# Original Readme
 mod_realdoc is an Apache module which does a realpath on
 the docroot symlink and sets the absolute path as the
 real document root for the remainder of the request.
